@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    /* background: rgb(49, 77, 22); */
+    /* background: radial-gradient(circle,#ffa6003b,#0000009f); */
+    background:linear-gradient(80deg,#cc030333,#00800017,#ffa6007c),url("./vv.jpg") ;
+    background-size: cover;
+}
