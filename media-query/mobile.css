@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app{
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    padding: 20px;
+    background: green;
+}
+/***  *********************************************media-query(Mobile)*************************************************** */
+@media (min-width:576px) {
+    .app{
+        width: 550px;
+        color: #fff;
+        background: #0c0a7a;
+    }
+}
+@media (min-width:768px) {
+    .app{
+        width: 740px;
+        background: #29633f;
+    }
+}
+@media (min-width:992px) {
+    .app{
+        width: 90%;
+        background: #703c0b;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}

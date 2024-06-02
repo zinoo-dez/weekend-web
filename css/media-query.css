@@ -1,0 +1,11 @@
+@media (max-width:600px) {
+    nav{
+        padding: 30px;
+    }
+    #bars {
+        display: block;
+    }
+    .social-links{
+        display: none;
+    }
+}
