@@ -35,6 +35,10 @@
         margin-bottom: 0;
     }
     .banner h2{
-        font-size: 2rem;
+        font-size: 2.7rem;
+    }
+    .about-card{
+        text-align: center;
+        padding: 25px 15px;
     }
 }

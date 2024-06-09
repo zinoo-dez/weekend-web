@@ -10,6 +10,7 @@
     font-family: Nunito;
     font-size: 1rem;
     color: var(--primary-color);
+    scroll-behavior: smooth;
 }
 :root{
     --primary-color: #79CCB8;
@@ -37,7 +38,13 @@ header {
     object-fit: fill;
 
 }
-
+.title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Poetsen One";
+    margin-bottom: 20px;
+}
 nav{
     position: absolute;
     top: 0;
@@ -86,10 +93,12 @@ nav{
     /* background: red; */
     padding: 30px;
     text-align: center;
+    width: 90%;
+
 }
 .banner h2{
     margin: 10px 0;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .banner p{
     font-size: 1.8rem;
@@ -104,5 +113,89 @@ nav{
     box-shadow: inset 0 0 5px var(--primary-color);
 }
 .btn-primary{
-    background: var(--bg-color);
+    background: var(--primary-color);
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 35px;
+}
+.about{
+    background: url("../img/bilderboken-rlwE8f8anOc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about-section{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-img__container,.about-card{
+    flex: 1;
+}
+.about-img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-card {
+    background: var(--white-color);
+    padding: 30px;
+    border-radius: 40px;
+}
+.about-card *{
+    color: var(--black-color);
+}
+.about-title{
+    font-size: 2rem;
+}
+.about-description{
+    margin: 15px 0;
+}
+.about-img{
+    border-radius: 20px;
+}
+/* about end */
+/* product start */
+.product{
+    background: url("../img/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.product-title{
+    color: var(--white-color);
+}
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-small-card{
+    flex: 1 1 16rem;
+    background: #017FEA;
+}
+.product-information{
+    padding: 10px;
+}
+.product-small-card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.service{
+    background: url("../img/rhema-kallianpur-uocSnWMhnAs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact{
+    background: url("../img/visualsofdana-T5pL6ciEn-I-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
